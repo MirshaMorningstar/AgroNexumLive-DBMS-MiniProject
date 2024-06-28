@@ -564,7 +564,8 @@ Agrarian UPDATED" with timestamp in trig.
 
 This comprehensive database design ensures robust data management, integrity, and security, tailored to the needs of the Grower’s Marketplace Management System.
 
-![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/0f676dd4-f8c3-4654-8774-c141ef05aac5)
+![Screenshot (13)](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/e9346b3b-d50b-4a5e-8494-53891b387d01)
+
 
 ![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/b5800104-e252-4765-b99b-3797e750a7d1)
 
@@ -633,3 +634,40 @@ By focusing on these areas, the Grower’s Marketplace Management System can not
 The trajectory of AgroNexumLive propels towards a future steeped in innovation and adaptability. Our roadmap aligns with the relentless pursuit of technological advancements, ensuring that our platform remains at the forefront of agricultural digitalization. We are committed to refining user experience, streamlining accessibility across devices, and fortifying our security infrastructure to uphold trust and reliability.
 
 Our vision extends beyond the present, focusing on market expansion while catering to the evolving demands of farmers and consumers. We envisage AgroNexumLive not just as a solution but as a dynamic, scalable entity poised to revolutionize agricultural ecosystems. With a strategic blend of technological sophistication and user-centric design, we aspire to cement our position as the go-to platform in the ever-evolving agricultural landscape, offering unparalleled value and resilience.
+
+## Output
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/aec1f3e6-469c-4b40-bbbf-fabd2d4c8354)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/cab27b9a-ea6e-471a-8a7f-661b78d70e7d)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/7edb0fcb-6804-424b-9272-60b93689bf24)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/c3c12862-b8d4-4c34-87fe-de56b1f8eab3)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/71347530-e9e6-41b4-84c6-0047b3a5fa21)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/4cadb6db-14b8-42a1-ab6f-a05fb74850e9)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/588c407c-3fcf-4c9d-af99-f8a709442dea)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/a7b86445-cdd7-4143-8784-89893cfe07df)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/ff73266b-fae2-4961-a131-327fc6a26ed5)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/ef26ba61-6bfb-48f0-bb0e-49fb00ecd70b)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/e48bcd58-1fb2-4ba6-b726-7e38beea6a25)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/1fa550ba-db6c-4a3f-af6c-7d0ce3decdc2)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/e54667ae-4fd9-43fd-bf08-744b2200abc0)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/04da7e10-4f0e-4fca-9946-49fa837b42e4)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/7a760965-42be-4236-b810-b5054292a9a5)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/852d3798-9657-4829-9b54-ba56d0a339f3)
+
+
+
