@@ -564,6 +564,10 @@ Agrarian UPDATED" with timestamp in trig.
 
 This comprehensive database design ensures robust data management, integrity, and security, tailored to the needs of the Grower’s Marketplace Management System.
 
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/0f676dd4-f8c3-4654-8774-c141ef05aac5)
+
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/b5800104-e252-4765-b99b-3797e750a7d1)
+
 ## Future Development and Expansion
 
 ### Scalability and Technological Adaptability
