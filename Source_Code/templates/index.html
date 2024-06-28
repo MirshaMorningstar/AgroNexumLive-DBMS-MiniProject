@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  AgroNexumLive Homepage
+{% endblock %}
+
+{% block home %}
+  menu-active
+{% endblock %}
+
+{% block body %}
+  <!-- Add this section for the pop-up notification -->
+  {% if redirect_message %}
+    <div class="flash-message">
+      <div class="alert alert-warning animated fadeInDown">
+        {{ redirect_message }}
+      </div>
+    </div>
+  {% endif %}
+  <!-- End of pop-up notification -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <!-- ... (existing content) ... -->
+    </div>
+
+    <div class="container">
+      <div class="credits">
+        <br>
+        Powered by <a href="/">Mirsha, Rameez, and Nevin</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <!-- jQuery and script for hiding flash message -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Automatically hide flash message after 5 seconds
+      $('.flash-message').delay(3000).fadeOut('slow');
+    });
+  </script>
+{% endblock %}
+
+
+

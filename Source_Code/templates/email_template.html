@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome Back, Agrarian!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .email-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-container">
+        <header>
+            <h1>Glad to See You Once Again!</h1>
+        </header>
+        <main>
+            <p>Dear {{ username }},</p>
+            <p>Your unwavering commitment to the advancement of agriculture and farming is truly remarkable. Your tireless dedication continues to yield substantial and invaluable contributions, shaping a profound impact on our world. Thank you for your relentless efforts and invaluable contributions.</p>
+            <p>Enclosed below is a dynamic array of agricultural insights, carefully curated to illuminate the intricate tapestry of farming. Dive into this mosaic of knowledge, where the cultivation of crops and the artistry of sustainable practices converge to nurture our planet and feed the world.</p>
+            <a href="{{ image_url }}" target="_blank"><img src="{{ image_url }}" alt="Partake in Agricultural Visuals"></a>
+            <br>
+            <a href="{{ video_url }}" target="_blank">Explore Live Agricultural News</a>
+            <p>Kindest Regards With Warmth,<br>Team AgroNexumLive</p>
+        </main>
+    </div>
+</body>
+
+</html>
+

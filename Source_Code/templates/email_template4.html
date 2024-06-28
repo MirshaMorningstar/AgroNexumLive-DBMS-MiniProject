@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome Back to AgroNexumLive!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .email-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-container">
+        <header>
+            <h1>Glad to See You Once Again!</h1>
+        </header>
+        <main>
+            <p>Dear {{ username }},</p>
+            <p>Welcome back to our agrarian community! Your continued interest and commitment to the advancement of agriculture inspire us. We greatly appreciate your ongoing support and dedication to sustainable farming.</p>
+            <p>Enclosed below are the latest insights on agriculture:</p>
+            <a href="{{ image_url }}" target="_blank"><img src="{{ image_url }}" alt="Agricultural Visuals"></a>
+            <br>
+            <a href="{{ video_url }}" target="_blank">Explore Live Agricultural Prices and Listings</a>
+            <p>We value your participation in our journey towards a more sustainable future. Thank you for being a part of our community!</p>
+            <p>Best Regards,<br>Team AgroNexumLive</p>
+        </main>
+    </div>
+</body>
+
+</html>

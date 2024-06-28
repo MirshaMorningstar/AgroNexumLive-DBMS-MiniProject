@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to the Agrarian Community!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .email-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-container">
+        <header>
+            <h1>Welcome to Our Vibrant Community of Agrarians!</h1>
+        </header>
+        <main>
+            <p>Dear {{ username }},</p>
+            <p>Congratulations and a warm welcome to our community of passionate agrarians! Your decision to join us marks the beginning of an enriching journey towards sustainable farming and agricultural excellence.</p>
+            <p>As a valued member of our community, you unlock access to an array of resources and knowledge that will elevate your farming pursuits:</p>
+            <ul>
+                <li>Immersive guides and expert insights on contemporary farming methodologies</li>
+                <li>Exclusive sessions - webinars, workshops, and discussions led by industry pioneers</li>
+                <li>A bustling platform for networking and knowledge exchange among fellow agrarians</li>
+                <li>Timely updates on cutting-edge agricultural technologies and sustainable practices</li>
+            </ul>
+            <p>To get started, begin exploring our Exclusive Community of AgroNexumLive Agrarian's Portal where you can interact with fellow Agrarians.</p>
+            <a href="https://chat.whatsapp.com/HLwSnmHaQWk6MjMmsdbUWj" target="_blank"><img src="https://chat.whatsapp.com/HLwSnmHaQWk6MjMmsdbUWj" alt="AgroNexumLive Exclusive"></a>
+            <br>
+            <p>To further aid your learning experience, delve into our repository:</p>
+            <a href="{{ image_url }}" target="_blank"><img src="{{ image_url }}" alt="Dive into Agricultural Schemes and facilities offered by Government of Tamilnadu "></a>
+            <br>
+            <a href="{{ video_url }}" target="_blank">Explore Live Agricultural News and Insights</a>
+            <p>We're thrilled to have you aboard! Your passion for agriculture resonates with our mission to shape a sustainable and prosperous future.</p>
+            <p>Warmest Regards,<br>Team AgroNexumLive</p>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+{% extends 'auth.html' %}
+{% block title %}
+AgroNexumLive OTP
+{% endblock title %}
+{% block content %}
+ <h1 class="mb-4 pb-0"><span>OTP AUTHENTICATION</span> </h1>
+  
+{% with messages=get_flashed_messages(with_categories=true) %}
+{% if messages %}
+{% for category, message in messages %}
+
+<div class="alert alert-{{category}} alert-dismissible fade show" role="alert">
+    {{message}}
+
+
+</div>
+
+
+  {% endfor %}
+  {% endif %}
+  {% endwith %}
+  <form class="text-white py-3 px-3" action="/verify_otp" method="post">
+    <div class="form-group">
+            <label for="exampleInputOTP">Enter the One - Time Password</label>
+            <input type="text" class="form-control mb-3" id="exampleInputOTP" name="otp" required>
+    </div>     
+  <button type="submit" class="form-control bg-success text-white">Verify Your OTP</button>
+</form>
+     
+{% endblock content %}
+
+<!--
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verify OTP</title>
+</head>
+<body>
+    <h1>Verify OTP</h1>
+    <form class="text-white py-3 px-3" action="/verify_otp" method="post">
+        <div class="form-group">
+            <label for="exampleInputOTP">Enter OTP</label>
+            <input type="text" class="form-control mb-3" id="exampleInputOTP" name="otp" required>
+        </div>
+        <button type="submit" class="form-control bg-success text-white">Verify OTP</button>
+    </form>
+</body>
+</html>
+-->

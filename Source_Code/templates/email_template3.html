@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to AgroNexumLive</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .email-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-container">
+        <header>
+            <h1>Welcome to the World's First Ever Revolutionary Digital Agrarian Marketplace!</h1>
+        </header>
+        <main>
+            <p>Dear {{ username }},</p>
+            <p>A heartfelt welcome to our thriving agrarian marketplace! Your entry into our platform marks the start of an exciting journey in exploring and supporting sustainable farming practices.</p>
+            <p>As a newly registered buyer, here's what you can expect:</p>
+            <ul>
+                <li>Access to a diverse selection of high-quality farm produce direct from agrarians</li>
+                <li>Exclusive deals and offers on fresh, locally sourced products</li>
+                <li>A seamless and secure platform for your agricultural procurement needs</li>
+                <li>Regular updates on seasonal produce and special offerings</li>
+            </ul>
+            <p>To get started, begin exploring our Exclusive Community of AgroNexumLive Prospects' Portal where you can interact with fellow consumers.</p>
+            <a href="https://chat.whatsapp.com/C73Qf3DwiIiKrA4WZE9z0s" target="_blank"><img src="https://chat.whatsapp.com/C73Qf3DwiIiKrA4WZE9z0s" alt="AgroNexumLive Exclusive"></a>
+            <br>
+            <p>Now, Go through the current rates of some common products besides us:</p>
+            <a href="{{ image_url }}" target="_blank"><img src="{{ image_url }}" alt="Dive into Agricultural Visuals"></a>
+            <br>
+            <a href="{{ video_url }}" target="_blank">Feel Free to compare with our MarketPlace...</a>
+            <p>We're thrilled to have you join us on this journey of promoting sustainable agriculture and supporting our agrarian community!</p>
+            <p>Warm Regards,<br>Team AgroNexumLive</p>
+        </main>
+    </div>
+</body>
+
+</html>
