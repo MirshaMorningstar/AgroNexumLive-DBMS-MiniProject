@@ -94,7 +94,7 @@ Transforming agricultural landscapes, bringing together farmers, livestock exper
 
 ### Purpose
 
-![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/b5800104-e252-4765-b99b-3797e750a7d1)
+![Screenshot (13)](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/e9346b3b-d50b-4a5e-8494-53891b387d01)
 
 AgroNexumLive emerges as a pioneering platform designed to foster symbiotic relationships between growers, livestock luminaries, and consumers. Our primary objective is to revolutionize the agricultural landscape by integrating these crucial stakeholders, thereby enhancing efficiency and transparency across the supply chain.
 
@@ -567,8 +567,7 @@ Agrarian UPDATED" with timestamp in trig.
 
 This comprehensive database design ensures robust data management, integrity, and security, tailored to the needs of the Grower’s Marketplace Management System.
 
-![Screenshot (13)](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/e9346b3b-d50b-4a5e-8494-53891b387d01)
-
+![image](https://github.com/MirshaMorningstar/AgroNexumLive-DBMS-MiniProject/assets/84216040/b5800104-e252-4765-b99b-3797e750a7d1)
 
 ## Future Development and Expansion
 
